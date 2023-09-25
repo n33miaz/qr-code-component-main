@@ -1,0 +1,40 @@
+#qr {
+    width: 288px;
+    height: 480px;
+
+    background-color: hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 15px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#qr > img {
+    width: 260px;
+
+    margin: 15px;
+    
+    border: none;
+    border-radius: 7px;
+}
+
+#qr > h1 {
+    color: black;
+    font-size: 20px;
+
+    margin: 15px;
+
+    text-align: center;
+}
+
+#qr > h2 {
+    color: hsl(220, 15%, 55%);
+    font-size: 15px;
+
+    margin: 20px;
+    margin-top: 0px;
+    
+    text-align: center;
+}
